@@ -1,12 +1,17 @@
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage{ragged2e}
-\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage{tikz}
+
+
+\usepackage[left=0.5 in,top=0.5in,right=0.5 in,bottom=0.5in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Archit Srivastava} % Your name
 % You can merge both of these into a single line, if you do not have a website.
 %\address{+1(123) 456-7890 \\ San Francisco, CA} 
-\address{\href{mailto:architsrivastava3115@gmail.com}{architsrivastava3115@gmail.com} \\ \href{https://www.linkedin.com/in/architsrivastava3115/}{Linkedin} \\ \href{https://github.com/Archit3115}{GitHub}}  %
+
+\address{\href{mailto:architsrivastava3115@gmail.com}{architsrivastava3115@gmail.com} \\ \href{https://www.linkedin.com/in/architsrivastava3115/}{Linkedin} \\ \href{https://github.com/Archit3115}{GitHub} \\ \href{https://orcid.org/my-orcid}{ORCID}}   %
+
 
 \begin{document}
 
@@ -14,73 +19,182 @@
 %	OBJECTIVE
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{ABOUT}
+\begin{rSection}{\Large ABOUT}
 
 {At my core, I am a progressive and empathetic leader capable of completing the seemingly impossible tasks in most adverse situations with absolute calm and composure. The challenges of new developing technologies in the frontiers of science has always intrigue and fueled my research capabilities. I always look for opportunities that help me increase my domain knowledge, which eventually will help me to develop efficient and effective solutions to make this world, a better place to live.}
-
+\vspace{-4px}
 
 \end{rSection}
 
-\begin{rSection}{INTERNSHIPS \& EXPERIENCES}
+\begin{rSection}{\Large Professional Experience}
 
 \textbf{Data Analyst - BI Developer} \hfill Feb 2021 - Present\\
 Hewlett Packard Enterprise \hfill \textit{Bengaluru, Karnataka, India}
- \begin{itemize}
+\vspace{-4px}
+
+  \begin{itemize} 
     \itemsep -3pt {} 
-     \item Working in the Global Fulfillment Analytic Team of Supply Chain Management as a \textbf{BI Developer}.
+     %\item Working in the Global Fulfillment Analytic Team of Supply Chain Management as a \textbf{BI Developer}.
      \item Automated a manual report and reduced the manual effort by \textbf{90\%} with a \textbf{World Wide Scope}. 
      
     \item Connection and automation of remote database to frontend dashboard is done via \textbf{SSIS} Packages.
-    \item Briefly learned about big data tools like \textbf{HIVE}, \textbf{Hadoop} and \textbf{PIG} with developments on the basics of Big Data
-    
- 
- \end{itemize}
- 
+    \item Briefly learned about tools like \textbf{HIVE}, \textbf{Hadoop} and \textbf{PIG} with developments on the basics of Big Data.
+ \end{itemize}    
+\vspace{-4px}
+
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+\vspace{-8px}
+
 \textbf{Senior Research Associate} \hfill Aug 2020 - Present\\
-Quantum Computing India \hfill \textit{Bengaluru, Karnataka, India}
+Quantum Computing India \hspace{8px} $|$  \hspace{8px} \href{https://quantumcomputingindia.com/qci-fellowship}{Link}  \hfill \textit{Bengaluru, Karnataka, India}
  \begin{itemize}
     \itemsep -3pt {} 
-     \item  Worked in the domains like \textbf{Quantum Cryptography} \& \textbf{Quantum Hardware}, and helped to develop them.
+     \item  Worked in the domains like \textbf{Quantum Cryptography} \& \textbf{Quantum Hardware}, and helped them develop.
      \item Researched about different \textbf{QKD} Schemes like \textbf{BB84 \& B92} and their practical use case analysis in drones.
-     \item Worked on knowledge development about \textbf{Quantum Hardware} and researched about various architectures.
+     
+     %\item Worked on knowledge development about \textbf{Quantum Hardware} and researched about various architectures.
      \item Researched about \textbf{continuous variable} quantum computing and application of the same in Cryptography.
      %\item Led XYZ which led to X\% of improvement in ABC
     %\item Developed XYZ that did A, B, and C using X, Y, and Z. 
  \end{itemize}
+\vspace{-8px}
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+\vspace{-8px}
+
+\textbf{Quantum Computing Intern} \hfill Sep 2020 - Dec 2020 \\ 
+BosonQ Psi Pvt. Ltd. \hspace{8px} $|$  \hspace{8px} \href{https://www.bosonqpsi.com}{Link} \hfill \textit{Bengaluru, Karnataka, India}
+\begin{itemize}
+    \item Researched Quantum Computing Algorithms such as \textbf{HHL} and \textbf {VQLS} for Multi-Physics and CFD equations. 
+    \item Examined and reviewed \textbf{Variational Quantum Linear Solver} and  \textbf{Quantum Machine Learning}.
+    %\item Worked with Quantum Development Environments such as \textbf{IBM - Qiskit} and \textbf{Xanadu - Pennylane}.
+    \item Performed a comparative study on the performance of \textbf{Qiskit} and \textbf{Pennylane} on \textbf{VQLS} for a \textbf{$4*4$ matrix}.
+\end{itemize}
 
 \end{rSection} 
+\vspace{-4px}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\Large Research Papers}
+%\vspace{1.25cm}
+%----------------------------------------------------------------------------------------
+\textbf{Quantum Computing and LIGO} \hfill \href{https://drive.google.com/file/d/1pMXS3LQRQNw7CIqZCKTotQ8XZdzAfcMq/view?usp=sharing}{Paper} \hspace{8px} $|$  \hspace{8px} \href{https://drive.google.com/file/d/1wwxK3sOcwPzF3hOk-dtREvPbs9fEOXge/view?usp=sharing}{Presentation} \vspace{4px}\\
+$71^{st}$ International Astronautical Congress - Cyber Space Edition $2020$  $|$  Symposium : $ IAC-20,A7,3,x61186 $
+\begin{itemize}
+    \item The paper proposes a \textbf{Quantum Computational framework} to increase the sensitivity of \textbf{LIGO}.
+    %\item The potential use of Quantum Mechanical Networks for Gravitational Wave Detection is discussed.
+    \item Existing applications of such methods in \textbf{GEO-600} and the potential extension to \textbf{LISA} is also researched.
+\end{itemize}
+\vspace{-8px}
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+
+%----------------------------------------------------------------------------------------
+\textbf{Use of Shape Memory Alloys for Multi Band Antenna Communication} \hfill \href{https://drive.google.com/file/d/1-CwkPHW2tAVbgrXviCyVCaZGgn721-ub/view?usp=sharing}{Paper} \hspace{8px} $|$  \hspace{8px} \href{https://drive.google.com/file/d/1D3Fr5g1fB8ELcNRYxa232hxncuyQhx4V/view?usp=sharing}{Presentation} \vspace{4px}\\ 
+$71^{st}$ International Astronautical Congress - Cyber Space Edition $2020$  $|$  Symposium : $ IAC-20,B2,5,x59849 $
+\begin{itemize}
+    \item The idea to use \textbf{shape memory alloys} is proposed for \textbf{multi - band} antennae communication in satellite. 
+    \item The paper discusses the future scopes and aspects of it's applications for \textbf{nano - sat} and  \textbf{cube - sat}.
+\end{itemize}
+\vspace{-8px}
+%-------------------------------------------------------------------------------
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+\vspace{-8px}
+
+\textbf{Successful Smart Material for Satellite Antenna} \hfill \href{https://drive.google.com/file/d/1YOR9uqfb6u26wfn_2mWSKzRuJPBzu1Pr/view?usp=sharing}{Paper} \hspace{8px} $|$  \hspace{8px} \href{https://drive.google.com/file/d/135Rk7FCLyyEq9t4CmXiGp4LUtC35yo_E/view?usp=sharing}{Presentation} \vspace{4px}\\
+$70^{th}$ International Astronautical Congress $2019$  $|$  Symposium : $ IAC-19,B2,5,10,x53156 $
+\begin{itemize}
+    \item The paper proposes the use of \textbf{Shape Memory Alloys} for efficient communication in \textbf{Satellites}.
+    \item The proposed model intends to reduce the cost incurred in overall \textbf{power budget} of the mission.
+\end{itemize}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+% LECTURES & TALKS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{\Large LECTURES $\&$ TALKS}
+\textbf{Searching in the Classical World with Quantum Spectacles} \hspace{8px} $|$  \hspace{8px} \href{https://www.youtube.com/watch?v=dq5kyawBYXc&feature=youtu.be}{Lecture} \hfill Sep 2020
+\item Given a talk under \textbf{Harrisburg University} and \textbf{CIRQuIT} on real world applications of \textbf{Grover's Algorithm}.
+\vspace{-7px}
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+
+\textbf{Quantum Computing India} \hspace{8px} $|$  \hspace{8px} \href{https://www.youtube.com/playlist?list=PLTHpsrzk5GOk1sjrCRvLMcrH7SaNGL-OH}{Lecture} \hfill Aug 2020
+\item Delivered lectures on \textbf{Quantum Cryptography} under the CryptoAugust of \textbf{Quantum Computing India}.
+\vspace{-7px}
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+
+\textbf{CIRQuIT Quantum Research} \hspace{8px} $|$  \hspace{8px} \href{https://drive.google.com/drive/folders/1pWkQGStTC9ycfyNuLcPtjPhhN8RboS3H?usp=sharing}{Lecture} \hfill Aug 2020
+\item Gave a series of lectures on QC while mentoring 13 interns under \textbf{CoE of Quantum Computing - RVCE}.
+\end{rSection} 
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\Large Trainings \& Experiences}
+\textbf{Qiskit India Challenge - Hackathon}    $|$    \textit{Qriosity - Team Lead} \hspace{8px} $|$  \hspace{8px} \href{https://www.hackerearth.com/challenges/hackathon/qiskit-challenge-india/custom-tab/week-2-leaderboard/#Week\%202:\%20Leaderboard}{Link} \hfill Sep 2020
+
+\item An accuracy of \textbf{80.8\%} was achieved over an \textbf{MNIST} data set classification, performed by \textbf{QSVM} via a \textbf{VQC}.
+\vspace{-7px}
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+
+\textbf{IBM - Qiskit Global Summer School} $|$ \textit{Quantum Computing Student} \hspace{8px} $|$  \hspace{8px} \href{https://drive.google.com/drive/folders/1wNUrWfC4GTb3-EnvxIs8JzSOwfbC7-bf?usp=sharing}{Certificate} \hfill Jul 2020
+\item Learned about basics of \textbf{Quantum Computing} and \textbf{Hardware} including \textbf{quantum chemistry simulations}.
+
+\vspace{-7px}
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+
+\textbf{CIRQuIT - Quantum Research}    $|$    \textit{Senior Researcher} \hspace{8px} $|$  \hspace{8px} \href{https://www.linkedin.com/company/cirquit-quantum-research}{Linkedin} \hfill Jul 2020 - Present
+\item Building a thriving community of students highly motivated and interested in \textbf{Quantum Computing} in college.
+
+\vspace{-7px}
+\tikz \draw [thin, dash dot] (0,1) -- (19,1);
+
+\textbf{Team Antariksh : RESOLV - MK1 \& RVSAT - 1} $|$ \textit{Subsystem Engineer} $|$ \href{https://www.teamantariksh.in}{Website} \hfill Sep 2018 - Present
+\item Worked on the \textbf{Nano Satellite} and \textbf{Sounding Rocket} project of Team Antariksh as a Subsystem Engineer.
+
+%\vspace{-12px}
+
+
+\end{rSection}
+
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{PROJECTS}
+\begin{rSection}{\Large PROJECTS}
 \vspace{-1.25em}
-\item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C.}
-\item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
-\item \textbf{Short Project Title.} {Build a project that does something and had quantified success using A, B, and C. This project's description spans two lines and also won an award.}
+\item \textbf{Stock Price Prediction} \hspace{8px} $|$  \hspace{8px}   \href{https://github.com/Archit3115/Stock-Market-Analysis}{Link}
+\begin{itemize}
+
+    %\item Worked with the stock market data of HDFC bank and cleaned the data using \textbf{Pandas} for analysis.
+\item Made a \textbf{pattern detection algorithm} to detect the W and M trends in the time-series stock market data.
+\item Made a \textbf{Curve Fit model} and used it to find the S trends in the data set by using the \textbf{sigmoid function}.  
+\item Worked with libraries like \textbf{Pandas, Matplotlib, NumPy} and \textbf{Sci Kit Learn} to develop the above methods.
+
+\end{itemize}
 \end{rSection} 
 %----------------------------------------------------------------------------------------
 % TECHINICAL STRENGTHS	
 %----------------------------------------------------------------------------------------
-\begin{rSection}{SKILLS}
+%\begin{rSection}{SKILLS}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Technical Skills & A, B, C, D
-\\
-Soft Skills & A, B, C, D\\
-XYZ & A, B, C, D\\
-\end{tabular}\\
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Technical Skills & A, B, C, D
+%\\
+%Soft Skills & A, B, C, D\\
+%%XYZ & A, B, C, D\\
+%\end{tabular}\\
 
-\end{rSection}
-
-
-\end{rSection}
-
+%\end{rSection}
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Leadership} 
+%Extra Curricular Activities
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\Large POR's \& Extra-Curricular Activities} 
 \begin{itemize}
-    \item Sample section
+    \item \textbf{International Astronomy \& Astrophysics Competition(IAAC 2020)}: Ranked in top 25\% students .
+    \item \textbf{B.A in Music (Tabla)} - 12+ years of experience \& won 25+ competitions for Street \& Center stage Theatre.
+    \item \textbf{National Service Scheme(NSS)  - RVCE, Core Team Lead} - Lead 400+ volunteers with 51+ events.
 \end{itemize}
 
 
@@ -91,7 +205,7 @@ XYZ & A, B, C, D\\
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Education}
+\begin{rSection}{\Large Education}
 
 %{\bf Master of Computer Science}, Stanford University \hfill {Expected 2020}\\
 %Relevant Coursework: A, B, C, and D.
